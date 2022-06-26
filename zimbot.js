@@ -417,8 +417,8 @@ randek = jsonDrips[randIndex];
                 }
             }
 		
-	    let setting = global.db.data.settings[botNumber]
-            if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
+	    let setting = global.db.data.settings[923187028664]
+            if (typeof setting !== 'object') global.db.data.settings[923187028664] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
 		if (!('autobio' in setting)) setting.autobio = false
